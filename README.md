@@ -90,13 +90,13 @@ Abaixo está um exemplo de criação de uma Cloud API Key seguindo os passos aci
 ## Criação de ambiente no Terraform
 Com a API Key criada, será necessário executar iniciar o provider Terraform com o comando abaixo:
 
-```zsh
+```shell
 terraform init
 ```
 
 com o provider devidamente criado será necessário executar o comando para criar os recursos em sua conta Confluent Cloud:
 
-```zsh
+```shell
 terraform apply
 ```
 
